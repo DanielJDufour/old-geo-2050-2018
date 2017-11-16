@@ -1,0 +1,10 @@
+@value primary_color: #FF5721;
+@value secondary_color: black;
+
+@value max_width: 900px;
+
+@value title_font_size: 4rem;
+@value subtitle_font_size: 2rem;
+@value section_title_font_size: 2.5rem;
+@value content_font_size: 1.25rem;
+@value detailed_content_font_size: 1rem;

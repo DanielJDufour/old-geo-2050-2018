@@ -1,0 +1,6 @@
+@value primary_color from '../variables.css';
+
+#about {
+    background: primary_color;
+    color: white;
+}

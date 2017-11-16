@@ -1,0 +1,47 @@
+@value primary_color from '../variables.css';
+@value title_font_size from '../variables.css';
+@value subtitle_font_size from '../variables.css';
+@value content_font_size from '../variables.css';
+
+#home {
+    color: black;
+    margin-top: 4rem;
+    text-align: center;
+    height: 100vh;
+}
+
+#home img {
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+}
+
+#home h3 {
+    margin-top: 1rem;
+    font-size: title_font_size;
+}
+
+#home h4 {
+    font-size: subtitle_font_size;
+}
+
+#home p {
+    font-size: content_font_size;
+}
+
+.ags-button {
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) #home {
+    padding: 1rem !important;
+}
+
+@media screen and (max-width: 450px) #home h3 {
+    font-size: @title-font-size * .75 !important;
+}
+
+@media screen and (max-width: 450px) #home h4 {
+    font-size: @subtitle-font-size * .75 !important;
+}
