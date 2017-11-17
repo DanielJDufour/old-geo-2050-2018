@@ -12,8 +12,16 @@
 
 #home img {
     border-radius: 50%;
-    height: 12rem;
-    width: 12rem;
+    height: 8rem;
+    width: 8rem;
+}
+
+#home-content {
+    background: primary_color;
+    border-radius: 5%;
+    padding: 1rem;
+    width: 40rem;
+    margin: 3rem auto;
 }
 
 #home h3 {
