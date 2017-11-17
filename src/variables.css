@@ -1,4 +1,5 @@
 @value primary_color: #ef6c00;
+@value secondary_color_faded: rgba(0, 0, 0, .75);
 @value secondary_color: black;
 
 @value max_width: 900px;
