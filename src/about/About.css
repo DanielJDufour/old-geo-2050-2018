@@ -7,6 +7,11 @@
     color: white;
 }
 
+#about-content {
+    padding: 3rem 2rem !important;
+    word-wrap: break-word;
+}
+
 #about h3 {
     font-weight: 300;
     text-align: center;
