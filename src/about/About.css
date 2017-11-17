@@ -1,6 +1,19 @@
 @value primary_color from '../variables.css';
+@value section_title_font_size from '../variables.css';
+@value content_font_size from '../variables.css';
 
 #about {
     background: primary_color;
     color: white;
+}
+
+#about h3 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: section_title_font_size;
+}
+
+#about p {
+    font-size: content_font_size;
 }
