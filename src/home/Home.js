@@ -3,7 +3,6 @@ import './Home.css';
 
 const Home = () => (
     <section id='home'>
-        
         <div id='home-content'>
             <img src='images/logos/2018_2050logo_250x250.png' alt='Geography 2050 Logo'/>
             <h3>GEOGRAPHY <span>2050</span></h3>
