@@ -19,21 +19,28 @@
 }
 
 #home-content {
+    box-sizing: border-box;
     color: white;
     background: secondary_color_faded;
     border-radius: 5%;
+    margin: 3rem auto;
+    max-width: 95%;
     padding: 1rem;
     width: 40rem;
-    margin: 3rem auto;
+}
+
+#home h2 {
+    margin-top: 1rem;
+    font-size: 3rem;
 }
 
 #home h3 {
     margin-top: 1rem;
-    font-size: title_font_size;
+    font-size: 2rem;
 }
 
 #home h4 {
-    font-size: subtitle_font_size;
+    font-size: 1.25rem;
 }
 
 #home p {
